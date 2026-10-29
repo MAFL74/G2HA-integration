@@ -38,4 +38,3 @@ Google requests are handled by the relay you configure. The relay can see device
 ## License
 
 This integration is distributed under the [MIT License](LICENSE).
-

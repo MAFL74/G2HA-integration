@@ -1,0 +1,12 @@
+set_exposure:
+  name: Set exposure
+  description: Select which Home Assistant entities are exposed to Google Home.
+  fields:
+    entity_ids:
+      name: Entity IDs
+      description: Home Assistant entity IDs to expose.
+      required: true
+      selector:
+        entity:
+          multiple: true
+

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to G2HA",
+        "description": "Connect Home Assistant to a G2HA relay. Use a relay you operate or trust.",
+        "data": {
+          "relay_url": "G2HA relay WebSocket URL",
+          "instance_id": "Instance ID"
+        }
+      }
+    },
+    "error": {},
+    "abort": {}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "G2HA settings",
+        "description": "Choose which supported entities and areas to expose to Google Home.",
+        "data": {
+          "expose_all": "Synchronize all supported entities",
+          "expose_all_areas": "Synchronize all areas",
+          "include_unavailable": "Include unavailable entities",
+          "exposed_areas": "Areas to expose",
+          "room_naming_mode": "Room names in Google Home",
+          "room_name_map": "Custom room name mapping",
+          "home_name": "Google Home name"
+        }
+      },
+      "entities": {
+        "title": "Select entities",
+        "description": "Search by name or entity ID and select entities to expose to Google Home.",
+        "data": {
+          "exposed_entities": "Entities to expose"
+        }
+      }
+    }
+  }
+}
