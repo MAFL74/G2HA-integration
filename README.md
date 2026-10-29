@@ -23,7 +23,7 @@ DNS only provides a name for an endpoint. It does not host the relay, provide HT
 6. Enter the WebSocket URL of your relay, for example `wss://g2ha.example.net/api/v1/ha/ws`, and a stable instance ID of your choice.
 7. Choose the entities or areas to expose in the integration options.
 
-The manifest version is `0.3.0`; the first release should use the matching tag `v0.3.0`. Keep the manifest and release tag synchronized for future updates.
+The manifest version is `0.3.1`; the initial public release uses the matching tag `v0.3.1`. Keep the manifest and release tag synchronized for future updates.
 
 ## Relay and Google setup
 
