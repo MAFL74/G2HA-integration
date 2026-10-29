@@ -4,8 +4,8 @@
   "codeowners": ["@MAFL74"],
   "config_flow": true,
   "documentation": "https://github.com/MAFL74/G2HA-integration",
-  "issue_tracker": "https://github.com/MAFL74/G2HA-integration/issues",
   "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/MAFL74/G2HA-integration/issues",
   "requirements": [],
   "version": "0.3.0"
 }
